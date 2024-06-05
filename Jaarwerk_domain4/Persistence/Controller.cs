@@ -14,7 +14,8 @@ namespace Jaarwerk_domain4.Persistence
         private SpelerMapper _spelerMapper;
         private TeamMapper _teamMapper;
         private GameMapper _gameMapper;
-        
+
+
         public Controller(string connString)
         {
             _connectionString = connString;

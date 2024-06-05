@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Jaarwerk_domain4.Buissines;
+using MySql.Data.MySqlClient;
 
 namespace Jaarwerk_domain4.Buisines
 {
@@ -38,7 +40,7 @@ namespace Jaarwerk_domain4.Buisines
         }
         public List<Game> GetMatchHistory() 
         {
-            
+
             return _PersistController.GetMatchHistory();
         }
 
