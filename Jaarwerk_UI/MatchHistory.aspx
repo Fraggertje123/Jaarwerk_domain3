@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MatchHistory.aspx.cs" Inherits="Jaarwerk_UI.MatchHistory" %>
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -35,6 +35,8 @@
     font-weight: bold;
     font-size: larger;
 }
+
+
     #tblContainer table td {
     padding-left: 50px; /* Adjust the left padding to create more space */
     position: relative;
